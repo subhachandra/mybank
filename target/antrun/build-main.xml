@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy todir="E:\work\GitRepos\mybank\target/classes/public">
+      <fileset dir="E:\work\GitRepos\mybank/src/main/mybank-ui/build" />
+    </copy>
+  </target>
+</project>
